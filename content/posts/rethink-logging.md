@@ -3,6 +3,7 @@
 title: "Rethink logging"
 date: 2018-04-29T17:00:59+01:00
 draft: false 
+tags: logging monitoring observability
 ---
 
 ### TL;DR

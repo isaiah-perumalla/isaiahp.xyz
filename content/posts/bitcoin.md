@@ -1,18 +1,47 @@
 ---
 title: "What the heck is bitcoin"
-date: 2020-08-18T17:00:59+01:00
-draft: false 
-tags: bitcoin cryptocurrency
+date: 2020-08-19T15:16:03+01:00
+draft: false
+tags: crypto bitcoin blockchain
 ---
-Title: What are crypocurrencies (Simple introduction)
-Date: 2020-08-16 17:20
-Category: bitcoin cryptocurrency
 
-Bitcoin been around for over 10 years now, and more people are interested in it. This is a very simplified introduction to  understanding what bitcoin is to understand bitcoin, let first look at traditional cash-based system.
 
-- In general cash is backed by a government and issued by a central bank.
+This is a very simplified introduction to understanding what bitcoin is, bitcoin itself is not one thing, it can be divided into 3 parts
+
+1. Bitcoin as currency
+2. payment network system
+3. blockchain underlying technology
+
+# P2P payment system
+> I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing 
+> that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can 
+> transfer funds from A to B without A knowing B or B knowing A.
+>&mdash; <cite>[Milton Friedman 1999] </cite>
+
+# Bitcoin as currency
+
+let first look at what money/currency is.
+Gold is actually the most successful currency in history and always percieved as store of value because it has the following properties.
+1. Gold is scarce, difficult to find
+2. There is a finite supply, goverments cannot simply decide to create more gold
+3. The supply of gold cannot be controlled by anybody
+
+One of the drawbacks of gold is cumbersome, and in some cases impossible.
+
+In general modern currency (*Fiat currency*) is backed by a government and issued by a central bank, while cash is familiar and very flexible it has some 
+* transfered electronicall through a central processing system
+* annoymity 
+### drawbacks.
+1. the supply can increased by the goverment
+2. completely reliant on the banking system, example if your bank were to collapse a saver is only covered by up to £85,000 per bank, and there’s no guarantee that this or future governments will bail banks out.
+
+
+
+- 
 
 - To buy something you would exchange a precise amount of physical cash for the goods or services required
+
+## Payment network system
 
 
 - when you pay in cash* a bank does not come in to the picture, in this regard cash offers better anonymity. cash allows payments to be sent directly from one party to another without going through a
@@ -57,7 +86,6 @@ Is this possible to create a digital cash system
 - have some way to regulate the create creation of new digtial cash without a central trusted authority.
 
 Bitcoin is digtial cash which solves the problems above without requiring a central trusted authority.
-
 
 
 

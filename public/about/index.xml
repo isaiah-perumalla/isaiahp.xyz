@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Quick Byte</title>
+    <link>https://isaiahp.xyz/about/</link>
+    <description>Recent content in Abouts on Quick Byte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://isaiahp.xyz/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://isaiahp.xyz/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://isaiahp.xyz/about/about/</guid>
+      <description>Title: About I am an independent software engineer based in London, UK. I mostly work on financial trading systems, previously I worked a ThoughtWorks. I was a grad at University of York and I was an undergrad at the University of Sydney. I have skills in a broad range of programming languages and paradigms (which includes Java, Python, C# and F#) prefer to use the best tool for the job</description>
+    </item>
+    
+  </channel>
+</rss>

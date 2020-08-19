@@ -12,13 +12,22 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://isaiahp.xyz/about/</link>
+      <pubDate>Wed, 19 Aug 2020 14:34:13 +0100</pubDate>
+      
+      <guid>https://isaiahp.xyz/about/</guid>
+      <description>I am an independent software engineer based in London, UK. I mostly work on financial trading systems, previously I worked a ThoughtWorks. I was a grad at University of York and I was an undergrad at the University of Sydney. I have skills in a broad range of programming languages and paradigms (which includes Java, Python, C# and F#) prefer to use the best tool for the job
+Contact Isaiah {width=25% style=&amp;quot;border-radius: 50%; max-width: 300px; width: 50vw;&amp;quot;}</description>
+    </item>
+    
+    <item>
       <title>What the heck is bitcoin</title>
       <link>https://isaiahp.xyz/posts/mtest-post/</link>
       <pubDate>Tue, 18 Aug 2020 17:00:59 +0100</pubDate>
       
       <guid>https://isaiahp.xyz/posts/mtest-post/</guid>
-      <description>Title: What are crypocurrencies (Simple introduction) Date: 2020-08-16 17:20 Category: bitcoin cryptocurrency
-Bitcoin been around for over 10 years now, and more people are interested in it. This is a very simplified introduction to understanding what bitcoin is to understand bitcoin, let first look at traditional cash-based system.
+      <description>Bitcoin been around for over 10 years now, and more people are interested in it. This is a very simplified introduction to understanding what bitcoin is to understand bitcoin, let first look at traditional cash-based system.
   In general cash is backed by a government and issued by a central bank.
   To buy something you would exchange a precise amount of physical cash for the goods or services required</description>
     </item>
