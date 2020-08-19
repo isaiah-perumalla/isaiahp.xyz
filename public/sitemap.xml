@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/mtest-post/</loc>
+    <loc>http://isaiahp.xyz/posts/mtest-post/</loc>
     <lastmod>2020-08-18T17:00:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>http://isaiahp.xyz/posts/</loc>
     <lastmod>2020-08-18T17:00:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://isaiahp.xyz/</loc>
     <lastmod>2020-08-18T17:00:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/rethink-logging/</loc>
+    <loc>http://isaiahp.xyz/posts/rethink-logging/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://isaiahp.xyz/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://isaiahp.xyz/tags/</loc>
   </url>
   
 </urlset>

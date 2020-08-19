@@ -1,3 +1,4 @@
+baseURL = "http://isaiahp.xyz/"
 languageCode = "en-us"
 title = "Quick Byte"
 theme = "cactus"
