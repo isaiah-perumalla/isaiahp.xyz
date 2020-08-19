@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crypto bitcoin blockchain on Quick Byte</title>
+    <link>https://isaiahp.xyz/tags/crypto-bitcoin-blockchain/</link>
+    <description>Recent content in crypto bitcoin blockchain on Quick Byte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Aug 2020 15:16:03 +0100</lastBuildDate>
+    
+	<atom:link href="https://isaiahp.xyz/tags/crypto-bitcoin-blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What the heck is bitcoin</title>
+      <link>https://isaiahp.xyz/posts/bitcoin/</link>
+      <pubDate>Wed, 19 Aug 2020 15:16:03 +0100</pubDate>
+      
+      <guid>https://isaiahp.xyz/posts/bitcoin/</guid>
+      <description>This is a very simplified introduction to understanding what bitcoin is, bitcoin itself is not one thing, it can be divided into 3 parts
+ Bitcoin as currency payment network system blockchain underlying technology  P2P payment system  I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that&amp;rsquo;s missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A.</description>
+    </item>
+    
+  </channel>
+</rss>

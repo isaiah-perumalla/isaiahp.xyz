@@ -26,7 +26,7 @@ Gold is actually the most successful currency in history and always percieved as
 2. There is a finite supply, goverments cannot simply decide to create more gold
 3. The supply of gold cannot be controlled by anybody
 
-One of the drawbacks of gold is cumbersome, and in some cases impossible.
+One of the drawbacks of gold is cumbersome, and in some cases impossible. To buy something you would exchange a precise amount of physical cash for the goods or services required
 
 In general modern currency (*Fiat currency*) is backed by a government and issued by a central bank, while cash is familiar and very flexible it has some 
 * transfered electronicall through a central processing system
@@ -35,11 +35,14 @@ In general modern currency (*Fiat currency*) is backed by a government and issue
 1. the supply can increased by the goverment
 2. completely reliant on the banking system, example if your bank were to collapse a saver is only covered by up to £85,000 per bank, and there’s no guarantee that this or future governments will bail banks out.
 
+this is what makes Bitcoin such an interesting technological and economic experiment
+Bitcoin’s  resides in both the future value of online transactions conducted through its networks, but also in a sense of belief that eventually, there will be a need to delegate financial trust and authority.
 
+ 
 
 - 
 
-- To buy something you would exchange a precise amount of physical cash for the goods or services required
+- 
 
 ## Payment network system
 
