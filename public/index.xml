@@ -18,17 +18,16 @@
       
       <guid>https://isaiahp.xyz/posts/bitcoin/</guid>
       <description>This is a very simplified introduction to understanding what bitcoin is, bitcoin itself is not one thing, it can be divided into 3 parts
- Bitcoin as currency payment network system blockchain underlying technology  P2P payment system  I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that&amp;rsquo;s missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A.</description>
+ P2P Payment network system Bitcoin as currency Blockchain underlying technology  P2P payment system In the current internet age it very simple for use to send an email or file to another person electronically, however if you wanted to some money to a friend this is not possible electronically without a trusted third party, where hand over you personal details get a bank account or sign up to some third party payment system like paypal etc.</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://isaiahp.xyz/about/</link>
-      <pubDate>Wed, 19 Aug 2020 14:34:13 +0100</pubDate>
+      <title>Dynamic Compilation of JVM </title>
+      <link>https://isaiahp.xyz/posts/jvm-compile/</link>
+      <pubDate>Thu, 14 Feb 2019 15:16:03 +0100</pubDate>
       
-      <guid>https://isaiahp.xyz/about/</guid>
-      <description>I am an independent software engineer based in London, UK. I mostly work on financial trading systems, previously I worked a ThoughtWorks. I was a grad at University of York and I was an undergrad at the University of Sydney. I have skills in a broad range of programming languages and paradigms (which includes Java, Python, C# and F#) prefer to use the best tool for the job
-Contact Isaiah  PGP Key Contact details  </description>
+      <guid>https://isaiahp.xyz/posts/jvm-compile/</guid>
+      <description>One of the most crucial parts of the JVM is the Just-In-Time (JIT) compiler; understanding how JVM dynamic compilation and optimization work is key to getting a sense of how to measure and improve performace of JVM applications by writing JIT friendly applications. Having a mental model of how code execution can help us make informed decision. The other key point Micro benchmarking is hard to get right in general, but it is even harder to get right on JVM due the adpative nature of the compiler.</description>
     </item>
     
     <item>
@@ -38,6 +37,16 @@ Contact Isaiah  PGP Key Contact details  </description>
       
       <guid>https://isaiahp.xyz/posts/rethink-logging/</guid>
       <description>TL;DR  Logging is a feature of a system Primary consumer of logs are machines Use events in logs to verify a running system There are benefits to using Binary encoding  Logging can be an effective way of gathering data from a system and observing its runtime behaviour. In my experience most of application logging is ad-hoc text, which greatly diminishes the potential value of logging. Most systems tend to start off with very little logging or no logging, as the system grows and problems arise developers add additional logging, which leads to megabytes/gigabytes of similar looking text, what make things worse it often not clear what information should be logged, developers often log debug/trace level diagnostic information in development but turned off in production, which makes it very difficult to extract meaningful information to troubleshoot a problem in production, as it may be missing crucial information.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://isaiahp.xyz/about/</link>
+      <pubDate>Sun, 19 Aug 2012 14:34:13 +0100</pubDate>
+      
+      <guid>https://isaiahp.xyz/about/</guid>
+      <description>I am an independent software engineer based in London, UK. I mostly work on financial trading systems, previously I worked a ThoughtWorks. I was a grad at University of York and I was an undergrad at the University of Sydney. I have skills in a broad range of programming languages and paradigms (which includes Java, Python, C# and F#) prefer to use the best tool for the job
+Contact Isaiah  PGP Key Contact details  </description>
     </item>
     
   </channel>

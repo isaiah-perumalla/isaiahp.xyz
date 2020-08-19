@@ -18,7 +18,16 @@
       
       <guid>https://isaiahp.xyz/posts/bitcoin/</guid>
       <description>This is a very simplified introduction to understanding what bitcoin is, bitcoin itself is not one thing, it can be divided into 3 parts
- Bitcoin as currency payment network system blockchain underlying technology  P2P payment system  I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that&amp;rsquo;s missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A.</description>
+ P2P Payment network system Bitcoin as currency Blockchain underlying technology  P2P payment system In the current internet age it very simple for use to send an email or file to another person electronically, however if you wanted to some money to a friend this is not possible electronically without a trusted third party, where hand over you personal details get a bank account or sign up to some third party payment system like paypal etc.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Compilation of JVM </title>
+      <link>https://isaiahp.xyz/posts/jvm-compile/</link>
+      <pubDate>Thu, 14 Feb 2019 15:16:03 +0100</pubDate>
+      
+      <guid>https://isaiahp.xyz/posts/jvm-compile/</guid>
+      <description>One of the most crucial parts of the JVM is the Just-In-Time (JIT) compiler; understanding how JVM dynamic compilation and optimization work is key to getting a sense of how to measure and improve performace of JVM applications by writing JIT friendly applications. Having a mental model of how code execution can help us make informed decision. The other key point Micro benchmarking is hard to get right in general, but it is even harder to get right on JVM due the adpative nature of the compiler.</description>
     </item>
     
     <item>

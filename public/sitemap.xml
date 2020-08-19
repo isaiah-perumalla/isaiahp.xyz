@@ -28,8 +28,13 @@
   </url>
   
   <url>
-    <loc>https://isaiahp.xyz/about/</loc>
-    <lastmod>2020-08-19T14:34:13+01:00</lastmod>
+    <loc>https://isaiahp.xyz/posts/jvm-compile/</loc>
+    <lastmod>2019-02-14T15:16:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaiahp.xyz/tags/performance-java-monitoring-jvm-jit/</loc>
+    <lastmod>2019-02-14T15:16:03+01:00</lastmod>
   </url>
   
   <url>
@@ -40,6 +45,11 @@
   <url>
     <loc>https://isaiahp.xyz/posts/rethink-logging/</loc>
     <lastmod>2018-04-29T17:00:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaiahp.xyz/about/</loc>
+    <lastmod>2012-08-19T14:34:13+01:00</lastmod>
   </url>
   
   <url>
