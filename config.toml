@@ -1,0 +1,31 @@
+baseURL = "http://bit-byte.xyz/"
+languageCode = "en-us"
+title = "Quick Byte"
+theme = "cactus"
+[params]
+  colortheme = "classic" # dark, light, white, or classic
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/isaiah-perumalla"
