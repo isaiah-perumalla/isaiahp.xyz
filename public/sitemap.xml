@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bit-byte.xyz/posts/mtest-post/</loc>
+    <loc>/posts/mtest-post/</loc>
     <lastmod>2020-08-18T17:00:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bit-byte.xyz/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-08-18T17:00:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bit-byte.xyz/</loc>
+    <loc>/</loc>
     <lastmod>2020-08-18T17:00:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bit-byte.xyz/posts/rethink-logging/</loc>
+    <loc>/posts/rethink-logging/</loc>
   </url>
   
   <url>
-    <loc>http://bit-byte.xyz/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://bit-byte.xyz/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

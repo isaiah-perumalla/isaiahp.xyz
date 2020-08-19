@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Quick Byte</title>
-    <link>http://bit-byte.xyz/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Quick Byte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Aug 2020 17:00:59 +0100</lastBuildDate>
     
-	<atom:link href="http://bit-byte.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mtest Post</title>
-      <link>http://bit-byte.xyz/posts/mtest-post/</link>
+      <link>/posts/mtest-post/</link>
       <pubDate>Tue, 18 Aug 2020 17:00:59 +0100</pubDate>
       
-      <guid>http://bit-byte.xyz/posts/mtest-post/</guid>
+      <guid>/posts/mtest-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://bit-byte.xyz/posts/rethink-logging/</link>
+      <link>/posts/rethink-logging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bit-byte.xyz/posts/rethink-logging/</guid>
+      <guid>/posts/rethink-logging/</guid>
       <description>Title: Rethink logging Date: 2018-04-29 10:20 Category: Logging monitoring
 TL;DR  Logging is a feature of a system Primary consumer of logs are machines Use events in logs to verify a running system There are benefits to using Binary encoding  Logging can be an effective way of gathering data from a system and observing its runtime behaviour. In my experience most of application logging is ad-hoc text, which greatly diminishes the potential value of logging.</description>
     </item>
