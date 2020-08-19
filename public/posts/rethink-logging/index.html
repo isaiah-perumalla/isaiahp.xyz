@@ -3,22 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>  </title>
+  <title> Rethink logging </title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="" />
-<meta property="og:description" content="Title: Rethink logging Date: 2018-04-29 10:20 Category: Logging monitoring
-TL;DR  Logging is a feature of a system Primary consumer of logs are machines Use events in logs to verify a running system There are benefits to using Binary encoding  Logging can be an effective way of gathering data from a system and observing its runtime behaviour. In my experience most of application logging is ad-hoc text, which greatly diminishes the potential value of logging." />
+  <meta property="og:title" content="Rethink logging" />
+<meta property="og:description" content="TL;DR  Logging is a feature of a system Primary consumer of logs are machines Use events in logs to verify a running system There are benefits to using Binary encoding  Logging can be an effective way of gathering data from a system and observing its runtime behaviour. In my experience most of application logging is ad-hoc text, which greatly diminishes the potential value of logging. Most systems tend to start off with very little logging or no logging, as the system grows and problems arise developers add additional logging, which leads to megabytes/gigabytes of similar looking text, what make things worse it often not clear what information should be logged, developers often log debug/trace level diagnostic information in development but turned off in production, which makes it very difficult to extract meaningful information to troubleshoot a problem in production, as it may be missing crucial information." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://isaiahp.xyz/posts/rethink-logging/" />
-
+<meta property="article:published_time" content="2018-04-29T17:00:59+01:00" />
+<meta property="article:modified_time" content="2018-04-29T17:00:59+01:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Title: Rethink logging Date: 2018-04-29 10:20 Category: Logging monitoring
-TL;DR  Logging is a feature of a system Primary consumer of logs are machines Use events in logs to verify a running system There are benefits to using Binary encoding  Logging can be an effective way of gathering data from a system and observing its runtime behaviour. In my experience most of application logging is ad-hoc text, which greatly diminishes the potential value of logging."/>
+<meta name="twitter:title" content="Rethink logging"/>
+<meta name="twitter:description" content="TL;DR  Logging is a feature of a system Primary consumer of logs are machines Use events in logs to verify a running system There are benefits to using Binary encoding  Logging can be an effective way of gathering data from a system and observing its runtime behaviour. In my experience most of application logging is ad-hoc text, which greatly diminishes the potential value of logging. Most systems tend to start off with very little logging or no logging, as the system grows and problems arise developers add additional logging, which leads to megabytes/gigabytes of similar looking text, what make things worse it often not clear what information should be logged, developers often log debug/trace level diagnostic information in development but turned off in production, which makes it very difficult to extract meaningful information to troubleshoot a problem in production, as it may be missing crucial information."/>
 
   
   
@@ -101,52 +100,52 @@ TL;DR  Logging is a feature of a system Primary consumer of logs are machines Us
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&text=">
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&text=Rethink%20logging">
       <i class="fab fa-twitter " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-linkedin " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&is_video=false&description=">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&is_video=false&description=Rethink%20logging">
       <i class="fab fa-pinterest " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=&body=Check out this article: https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f">
+    <a class="icon" href="mailto:?subject=Rethink%20logging&body=Check out this article: https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f">
       <i class="fas fa-envelope " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-get-pocket " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-reddit " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-stumbleupon " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-digg " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&name=&description=Title%3a%20Rethink%20logging%20Date%3a%202018-04-29%2010%3a20%20Category%3a%20Logging%20monitoring%0aTL%3bDR%20%20Logging%20is%20a%20feature%20of%20a%20system%20Primary%20consumer%20of%20logs%20are%20machines%20Use%20events%20in%20logs%20to%20verify%20a%20running%20system%20There%20are%20benefits%20to%20using%20Binary%20encoding%20%20Logging%20can%20be%20an%20effective%20way%20of%20gathering%20data%20from%20a%20system%20and%20observing%20its%20runtime%20behaviour.%20In%20my%20experience%20most%20of%20application%20logging%20is%20ad-hoc%20text%2c%20which%20greatly%20diminishes%20the%20potential%20value%20of%20logging.">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&name=Rethink%20logging&description=TL%3bDR%20%20Logging%20is%20a%20feature%20of%20a%20system%20Primary%20consumer%20of%20logs%20are%20machines%20Use%20events%20in%20logs%20to%20verify%20a%20running%20system%20There%20are%20benefits%20to%20using%20Binary%20encoding%20%20Logging%20can%20be%20an%20effective%20way%20of%20gathering%20data%20from%20a%20system%20and%20observing%20its%20runtime%20behaviour.%20In%20my%20experience%20most%20of%20application%20logging%20is%20ad-hoc%20text%2c%20which%20greatly%20diminishes%20the%20potential%20value%20of%20logging.%20Most%20systems%20tend%20to%20start%20off%20with%20very%20little%20logging%20or%20no%20logging%2c%20as%20the%20system%20grows%20and%20problems%20arise%20developers%20add%20additional%20logging%2c%20which%20leads%20to%20megabytes%2fgigabytes%20of%20similar%20looking%20text%2c%20what%20make%20things%20worse%20it%20often%20not%20clear%20what%20information%20should%20be%20logged%2c%20developers%20often%20log%20debug%2ftrace%20level%20diagnostic%20information%20in%20development%20but%20turned%20off%20in%20production%2c%20which%20makes%20it%20very%20difficult%20to%20extract%20meaningful%20information%20to%20troubleshoot%20a%20problem%20in%20production%2c%20as%20it%20may%20be%20missing%20crucial%20information.">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&t=">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&t=Rethink%20logging">
       <i class="fab fa-hacker-news " aria-hidden="true"></i>
     </a>
   </li>
@@ -183,13 +182,13 @@ TL;DR  Logging is a feature of a system Primary consumer of logs are machines Us
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
       <h1 class="posttitle" itemprop="name headline">
-        
+        Rethink logging
       </h1>
       <div class="meta">
         
         <div class="postdate">
           
-          <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+          <time datetime="2018-04-29 17:00:59 &#43;0100 BST" itemprop="datePublished">2018-04-29</time>
           
         </div>
         
@@ -199,10 +198,7 @@ TL;DR  Logging is a feature of a system Primary consumer of logs are machines Us
 
   
     <div class="content" itemprop="articleBody">
-      <p>Title: Rethink logging
-Date: 2018-04-29 10:20
-Category: Logging monitoring</p>
-<h3 id="tldr">TL;DR</h3>
+      <h3 id="tldr">TL;DR</h3>
 <ul>
 <li><a href="#feature">Logging is a feature of a system</a></li>
 <li><a href="#log4machines">Primary consumer of logs are machines</a></li>
@@ -332,52 +328,52 @@ Ideally use a well documented binary encoding such as <a href="https://github.co
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&text=">
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&text=Rethink%20logging">
       <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&is_video=false&description=">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&is_video=false&description=Rethink%20logging">
       <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=&body=Check out this article: https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f">
+    <a class="icon" href="mailto:?subject=Rethink%20logging&body=Check out this article: https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f">
       <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=">
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&title=Rethink%20logging">
       <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&name=&description=Title%3a%20Rethink%20logging%20Date%3a%202018-04-29%2010%3a20%20Category%3a%20Logging%20monitoring%0aTL%3bDR%20%20Logging%20is%20a%20feature%20of%20a%20system%20Primary%20consumer%20of%20logs%20are%20machines%20Use%20events%20in%20logs%20to%20verify%20a%20running%20system%20There%20are%20benefits%20to%20using%20Binary%20encoding%20%20Logging%20can%20be%20an%20effective%20way%20of%20gathering%20data%20from%20a%20system%20and%20observing%20its%20runtime%20behaviour.%20In%20my%20experience%20most%20of%20application%20logging%20is%20ad-hoc%20text%2c%20which%20greatly%20diminishes%20the%20potential%20value%20of%20logging.">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&name=Rethink%20logging&description=TL%3bDR%20%20Logging%20is%20a%20feature%20of%20a%20system%20Primary%20consumer%20of%20logs%20are%20machines%20Use%20events%20in%20logs%20to%20verify%20a%20running%20system%20There%20are%20benefits%20to%20using%20Binary%20encoding%20%20Logging%20can%20be%20an%20effective%20way%20of%20gathering%20data%20from%20a%20system%20and%20observing%20its%20runtime%20behaviour.%20In%20my%20experience%20most%20of%20application%20logging%20is%20ad-hoc%20text%2c%20which%20greatly%20diminishes%20the%20potential%20value%20of%20logging.%20Most%20systems%20tend%20to%20start%20off%20with%20very%20little%20logging%20or%20no%20logging%2c%20as%20the%20system%20grows%20and%20problems%20arise%20developers%20add%20additional%20logging%2c%20which%20leads%20to%20megabytes%2fgigabytes%20of%20similar%20looking%20text%2c%20what%20make%20things%20worse%20it%20often%20not%20clear%20what%20information%20should%20be%20logged%2c%20developers%20often%20log%20debug%2ftrace%20level%20diagnostic%20information%20in%20development%20but%20turned%20off%20in%20production%2c%20which%20makes%20it%20very%20difficult%20to%20extract%20meaningful%20information%20to%20troubleshoot%20a%20problem%20in%20production%2c%20as%20it%20may%20be%20missing%20crucial%20information.">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&t=">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fisaiahp.xyz%2fposts%2frethink-logging%2f&t=Rethink%20logging">
       <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
     </a>
   </li>

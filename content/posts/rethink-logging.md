@@ -1,6 +1,10 @@
-Title: Rethink logging
-Date: 2018-04-29 10:20
-Category: Logging monitoring
+
+---
+title: "Rethink logging"
+date: 2018-04-29T17:00:59+01:00
+draft: false 
+---
+
 ### TL;DR
 * [Logging is a feature of a system](#feature)
 * [Primary consumer of logs are machines](#log4machines)
